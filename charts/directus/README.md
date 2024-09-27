@@ -213,7 +213,7 @@ helm delete my-release-name
 
 ### External Database
 
-If you want to use an external database, you need to disable MariaDB by adding `mariadb.enabled: false` and set the necessary environment variables according to the [Directus Documentation](https://docs.directus.io/self-hosted/config-options.html#database).
+If you want to use an external database (Postgres for ex.), you need to disable MariaDB by adding `mariadb.enabled: false` and set the necessary environment variables according to the [Directus Documentation](https://docs.directus.io/self-hosted/config-options.html#database).
 
 These variables can be added using the following values:
 
